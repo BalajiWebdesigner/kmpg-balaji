@@ -1,0 +1,904 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lily+Script+One&family=Noto+Sans+Display&family=Poppins&display=swap');
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+}
+ul,li{
+font-family: 'Poppins', sans-serif;
+}
+a{
+font-family: 'Poppins', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 68%)!important;
+}
+.navbar-brand .fa-lightbulb-o {
+    color: #007bff;
+    margin: 0 5px 0 0;
+}
+a.navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+	font-family: 'Lily Script One', cursive;
+}
+.nav-link {
+    font-size: 14px;
+}
+.nav-item > .link {
+    border: 2px solid #8cabff;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.carousel-caption {
+    bottom: 10em!important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 10em;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h5 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.image {
+    background: url(styles/3.jpg) center no-repeat;
+    background-position: 50% 50%;
+    height: 400px;
+}
+section{
+padding:50px 0;
+}
+.page-wrapper h1 {
+    text-orientation: revert;
+    writing-mode: vertical-rl;
+    transform: rotate(
+180deg);
+color: #b3adaddd;
+}
+/*.page-wrapper a:after {
+   content: '.';
+    border-bottom: 2px solid #007bff;
+    width: 18%;
+    display: block;
+    vertical-align: middle;
+    bottom: 58px;
+    position: absolute;
+    left: 110px;
+}*/
+.nav-item .nav-link.chatbtn{
+  border: 2px solid #8cabff; 
+}
+.page-wrapper a {
+    text-decoration: none;
+}
+.more-content {
+    position: absolute;
+    right: 23%;
+    top: 43%;
+}
+.page-wrapper .fa.fa-lightbulb-o {
+    font-size: 25px;
+}
+.small-content {
+    position: absolute;
+    bottom: -13%;
+    left: 13%;
+}
+.services a::after {
+    content: '.';
+    border-bottom: 2px solid #007bff;
+    width: 10%;
+    display: block;
+    vertical-align: middle;
+    bottom: 25px;
+    position: absolute;
+    left: 110px;
+}
+	.small-content3{
+	 position: absolute;
+    bottom: 19%;
+    left: 13%;
+    box-shadow: 0px 2px 10px 0px #eee;
+	}
+  .image img{
+    width: 100%
+  }
+  .less-content {
+    position: absolute;
+    left: -10%;
+    width: 100%;
+    max-width: 400px;
+    top: 0px;
+}
+.image{
+  overflow: unset;
+height: auto;
+}
+.image .more-content {
+    width: 57%;
+    position: absolute;
+    bottom: -16%;
+    top: auto;
+    right: 10%;
+    background-color: #eef2f5 !important;
+    padding: 30px !important;
+}
+.mainsection{
+  padding: 50px 0 100px;
+}
+.w-65{
+  width:66%;
+}
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid #007bff;
+  color: #007bff !important;
+}
+.nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+  padding: 10px 6px !important;
+  margin-right: 10px;
+}
+.navbar {
+    padding: 1.2rem 1rem !important;
+}
+.navbar-nav.mr-auto.ml-auto .nav-item {
+    margin: 0px 2%;
+}
+.nav-link {
+    white-space: nowrap;
+}
+@media screen and (max-width: 1200px)
+{
+  .navbar-nav.mr-auto.ml-auto .nav-item {
+    margin: 0px 1%;
+}
+.navbar-nav.mr-auto.ml-auto .nav-item {
+  margin: 0px 0.5%;
+}
+.navbar-nav.mr-auto.ml-auto .nav-item .nav-link {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.nav-link {
+    white-space: normal;
+}
+}
+@media screen and (max-width: 991px){
+  .nav.justify-content-end {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+}
+}
+@media screen and (max-width: 767px){
+.respfullwidth h1 {
+    text-orientation: revert;
+    writing-mode: inherit;
+    transform: rotate( 0deg);
+    color: #b3adaddd;
+    text-align: center;
+    margin: 0px auto 30px;
+}
+.testimonialsection .lgheading {
+    transform: rotate( 180deg) !important;
+    height: 81px;
+    writing-mode: lr-tb !important;
+}
+.respfullwidth {
+    max-width: 100% !important;
+}
+section {
+    padding: 30px 0;
+}
+.sectionrow {
+  flex-direction: column;
+}
+.respfullwidth {
+  width: 100%;
+  max-width: 100%;
+}
+.col-sm-5.respfullwidth {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 51px;
+    margin-bottom: 0px !important;
+}
+
+.col-sm-5.respfullwidth {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 51px;
+    margin-bottom: 60px !important;
+    overflow: ;
+    margin-top: 0px !important;
+}
+.small-content, .small-content3 {
+  bottom: -40px;
+}
+.more-content .blockoverlay {
+    max-height: 104px;
+    overflow: hidden;
+}
+.more-content {
+    bottom: -150px;
+    width: 70%;
+}
+.small-content {
+    bottom: -30px;
+}
+/*.text-capitalize {
+    transform: rotate(0deg) !important;
+}
+.text-capitalize.lgheading {
+    transform: rotate( -90deg) !important;
+}*/
+}
+</style>
+<!doctype  html>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.co	m/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+
+
+<title>Assesment</title>
+</head>
+<body>
+<div class="page-wrapper">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <a class="navbar-brand" href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i>energy	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto ml-auto">
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Bundles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Save Energy & Money</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Product & services</a>
+      </li>
+	    <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Start, stop & move</a>
+      </li>
+    </ul>
+	<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">FAQS</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-capitalize" href="#">help</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link link chatbtn" href="#">Go To Chat</a>
+  </li>
+</ul>
+  </div>
+</nav>
+</header>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="styles/car1.jpg" alt="First slide">
+	<div class="carousel-caption d-none d-md-block text-left">
+		<h5>pay less,get more</h5>
+		<p>save on your bill through our broadband and energy bundle</p>
+		<ul>
+		<li class="d-inline"><img src="1.png"></li>
+		<li class="d-inline"><img src="2.png"></li>
+		</ul>
+	</div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="styles/car2.jpg" alt="Second slide">
+	  <div class="carousel-caption d-none d-md-block text-left">
+			<h5>pay less,get more</h5>
+			<p>save on your bill through our broadband and energy bundle</p>
+			<ul>
+		<li class="d-inline"><img src="1.png"></li>
+		<li class="d-inline"><img src="2.png"></li>
+		</ul>
+	</div>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<section  class="mainsection">
+<div class="container">
+<div class="row sectionrow">
+<div class="col-sm-2 d-flex respfullwidth align-items-center">
+<h1 class="text-capitalize lgheading">about</h1>
+</div>
+<div class="col-sm-10 image respfullwidth ">
+  <img src="styles/3.jpg" />
+<div class="less-content">
+<h5 class="text-capitalize bg-primary p-4 text-white w-50 text-center">we know how to reduce  your <br> enegery consumption</h5>
+</div>
+<div class="more-content bg-white text-dark  p-5 w-65">
+<i class="fa fa-lightbulb-o text-right d-block px-1 text-primary" aria-hidden="true"></i>
+<div class="blockoverlay">
+  <h6 class="text-capitalize">Lorem ipsum dolor sit amet.</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<a href="" class="text-capitalize">read more</a>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container">
+<div class="row sectionrow">
+<div class="col-sm-2 respfullwidth d-flex align-items-center">
+<h1 class="text-capitalize ">services</h1>
+</div>
+
+<div class="col-sm-5 mb-5 respfullwidth">
+<div class="column">
+  <div class="blockoverlay">
+<h5>Services & <span class="text-primary">Solutions</span></h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+</div>
+<div class="services1">
+<img src="styles/3.jpg" class="img-fluid mx-auto d-block">
+<div class="bg-white small-content text-center p-3" style="width:75%;">
+<h5>Cost Management</h5>
+<div class="blockoverlay">
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit,sed do eiusmod<br> tempor incididunt</p>
+</div>
+<div class="text-left services">
+<a href="" class="text-capitalize text-left">read more</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-sm-5 respfullwidth">
+<div class="column">
+
+<div class="services1">
+<img src="styles/3.jpg" class="img-fluid mx-auto d-block">
+<div class="bg-white small-content3 text-center p-3" style="width:75%;">
+  <div class="blockoverlay">
+<h5>Cost Management</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit,sed do eiusmod<br> tempor incididunt</p>
+</div>
+<div class="text-left services">
+<a href="" class="text-capitalize text-left">read more</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-sm-2 d-flex align-items-center respfullwidth">
+<h1 class="text-capitalize "></h1>
+</div>
+<div class="col-sm-5 mt-5	respfullwidth">
+<div class="text-center">
+<div class="column">
+<div class="services1">
+<img src="styles/3.jpg" class="img-fluid mx-auto d-block">
+<div class="bg-white small-content text-center p-3" style="width:75%;">
+  <div class="blockoverlay">
+<h5>Cost Management</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit,sed do eiusmod<br> tempor incididunt</p>
+</div>
+<div class="text-left services">
+<a href="" class="text-capitalize text-left">read more</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-sm-5 respfullwidth">
+<div class="text-center">
+<div class="column">
+<div class="services1">
+<img src="styles/3.jpg" class="img-fluid mx-auto d-block">
+<div class="bg-white small-content text-center p-3" style="width:75%;">
+  <div class="blockoverlay">
+<h5>Cost Management</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit,sed do eiusmod<br> tempor incididunt</p>
+</div>
+<div class="text-left services">
+<a href="" class="text-capitalize text-left">read more</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+	<style>
+		.testimonialsection .testimonialheader .u-svg-content{
+			width: 30px;
+      fill: #fff;
+		}
+
+.testimonialsection .item .u-icon {
+background-color: #06b;
+width: 50px;
+height: 50px;
+display: inline-block;
+padding: 9px;
+color: #fff;
+position: absolute;
+left: 3%;
+}
+.testimonialsection .testimonialheader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+.testimonialsection .testimonialheader h5 {
+  padding-left: 20px;
+  color: blue;
+  padding-top: 10px;
+padding-bottom: 10px;
+}
+.testimonialsection .item.u-icon svg {
+  color: #fff;
+  fill: #fff;
+}
+/*.span12 {
+    width: 1200px !important;
+max-width: 100%;
+}*/
+
+.testimonialsection .item {
+  position: relative;
+}
+.testimonialsection #demo {
+    background-color: #eef2f5;
+}
+.testimonialsection .verticalitem {
+    text-orientation: revert;
+    writing-mode: vertical-rl;
+    transform: rotate( 180deg);
+    color: #b3adaddd;
+    background: #06b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonialsection .testimonialsection .text-capitalize  {
+  text-orientation: revert;
+writing-mode: vertical-rl;
+transform: rotate( 180deg);
+color: #0d0dac;
+font-size: 80px;
+font-weight: bold;
+}
+
+/*.item .u-icon {
+  position: absolute;
+  left: 5%;
+}*/
+.testimonialsection .carouselfootersection p, .item p {
+    padding-left: 10%;
+    padding-bottom: 60px;
+}
+
+.testimonialsection .carouselfootersection {
+  padding-left: 120px;
+}
+.testimonialsection .carouselfootersection h5::before {
+content: '';
+width: 7%;
+left: 0px;
+background-color: blue;
+position: absolute;
+height: 2px;
+top: 11px;
+}
+.testimonialsection .carouselfootersection {
+  position: relative;
+}
+.testimonialsection .carouselfootersection h5, .testimonialsection .carouselfootersection span {
+    padding-left: 8%;
+    position: relative;
+}
+
+.testimonialsection .owl-carousel {
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+.testimonialsection .owl-carousel .owl-controls.clickable {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+}
+
+.blockoverlay h6 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.blockoverlay {
+  max-height: 175px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.small-content {
+  box-shadow: 0px 2px 10px 0px #eee;
+}
+.small-content .blockoverlay {
+  max-height: 90px;
+  overflow: hidden;
+}
+
+	</style>
+	      <div id="demo" class="testimonialsection">
+        <div class="container-fluid">
+          <div class="row" style="display: flex;justify-content: center;">
+          	<div class="col-sm-2 verticalitem respfullwidth">
+          		<h1 class="text-capitalize  lgheading" style="text-orientation: revert;writing-mode: vertical-rl;transform: rotate( 180deg);color: #1975c1;font-size: 55px;font-weight: bold;">Testimonial</h1>
+          	</div>
+            <div class="span12 col-sm-10 respfullwidth" style="padding: 50px 0px;background-color: #eef2f5;">
+
+              <div id="owl-demo" class="owl-carousel">
+                <div class="item">
+                	<div class="testimonialheader">
+                		<span class="u-icon u-icon-circle u-icon-1">
+                		<svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-6c4a"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
+                		<h5>heading1</h5>
+                	</div>
+                <p class="u-align-center u-text u-text-1">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”</p>
+                <div class="carouselfootersection">
+                	<h5>George</h5>
+                	<span>Engineer</span>
+                </div>
+            </div>
+               <div class="item">
+                	<div class="testimonialheader">
+                		<span class="u-icon u-icon-circle u-icon-1">
+                		<svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-6c4a"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
+                		<h5>heading1</h5>
+                	</div>
+                <p class="u-align-center u-text u-text-1">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”</p>
+                <div class="carouselfootersection">
+                	<h5>George</h5>
+                	<span>Engineer</span>
+                </div>
+            </div>
+                <div class="item">
+                	<div class="testimonialheader">
+                		<span class="u-icon u-icon-circle u-icon-1">
+                		<svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-6c4a"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
+                		<h5>heading1</h5>
+                	</div>
+                <p class="u-align-center u-text u-text-1">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.”</p>
+                <div class="carouselfootersection">
+                	<h5>George</h5>
+                	<span>Engineer</span>
+                </div>
+            </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+</section>
+<section class="productlist">
+  
+      <div id="demo1">
+        <div class="container">
+          <div class="row">
+            <div class="span12" style="width: 100%;">
+ <h4>Product</h4>
+              <div id="owl-demo1" class="owl-carousel">
+               
+                <div class="item">
+                 <div class="itemoverlay col-sm-12">
+                    <img src="assets/6.jpg" alt="Owl Image" />
+                  <div class="itemswrap">
+                    <h5>heading 1</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span>www.spicejet.org</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="item">
+                 <div class="itemoverlay col-sm-12">
+                    <img src="assets/4.jpg" alt="Owl Image" />
+                  <div class="itemswrap">
+                    <h5>heading 1</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span>www.spicejet.org</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="item">
+                 <div class="itemoverlay col-sm-12">
+                    <img src="assets/5.jpg" alt="Owl Image" />
+                  <div class="itemswrap">
+                    <h5>heading 1</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span>www.spicejet.org</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="item">
+                 <div class="itemoverlay col-sm-12">
+                    <img src="assets/3.jpg" alt="Owl Image" />
+                  <div class="itemswrap">
+                    <h5>heading 1</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span>www.spicejet.org</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="item">
+                 <div class="itemoverlay col-sm-12">
+                    <img src="assets/4.jpg" alt="Owl Image" />
+                  <div class="itemswrap">
+                    <h5>heading 1</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <span>www.spicejet.org</span>
+                  </div>
+                 </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+        <!-- Demo -->
+
+    <style>
+    #owl-demo1 .item{
+        margin: 3px;
+    }
+    #owl-demo1 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.productlist .itemswrap {
+padding: 15px 30px;
+position: relative;
+top: -35px;
+background: #fff;
+max-width: 80%;
+margin: 0px auto;
+box-shadow: 0px 2px 10px 0px #eee;
+}
+.productlist .itemswrap p {
+  padding: 0px;
+}
+.productlist .itemswrap h5 {
+font-weight: 600;
+margin-bottom: 24px;
+font-size: 24px;
+}
+.productlist .itemswrap span {
+    color: blue;
+}
+.productlist .item h4{
+text-align: center;
+color: #0066bb;
+font-size: 30px;
+padding-bottom: 10px;
+margin-bottom: 60px;
+text-transform: uppercase;
+}
+.productlist .item h4::before {
+  content: '';
+  width: 120px;
+  height: 2px;
+  background: #0066bb;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px auto;
+  left: 0px;
+  right: 0px;
+}
+.productlist .item h4 {
+  position: relative;
+}
+.productlist .owl-buttons {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  left: 0px;
+}
+.productlist #owl-demo1 {
+  padding: 0px 60px;
+}
+.productlist .owl-theme .owl-controls .owl-buttons div {
+    color: #FFF;
+    padding: 5px 4px;
+    background: #040466;
+    font-weight: bold;
+    font-size: 0px;
+    line-height: 17px;
+    width: 30px;
+    height: 30px;
+}
+
+.productlist .owl-theme .owl-controls .owl-buttons div.owl-prev::before {
+    content: '<';
+    display: inline-block;
+    font-size: 22px;
+}
+.productlist .owl-theme .owl-controls .owl-buttons div.owl-next::after {
+    content: '>';
+    display: inline-block;
+    font-size: 22px;
+}
+label {
+    color: white;
+}
+    </style>
+</section>
+<section class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 text-center">
+              <a class="navbar-brand text-white" href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i>energy   </a>
+            </div>
+              <div class="col-sm-2">
+                <ul class="text-white text-center">
+                    <li>home</li>
+                    <li>products</li>
+                    <li>services</li>
+                    <li>contact</li>
+                    <li>info</li>
+                </ul>
+            </div>
+              <div class="col-sm-2">
+                 <ul class="text-white text-center">
+                    <li>home</li>
+                    <li>products</li>
+                    <li>services</li>
+                    <li>contact</li>
+                    <li>info</li>
+                </ul>
+            </div>
+              <div class="col-sm-2">
+                 <ul class="text-white text-center">
+                    <li>home</li>
+                    <li>products</li>
+                    <li>services</li>
+                    <li>contact</li>
+                    <li>info</li>
+                </ul>
+            </div>
+              <div class="col-sm-2 text-center">
+                <form>
+  <div class="form-group justify-content-center mx-auto">
+    <label for="exampleInputEmail1 text-white">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+            </div>
+
+        </div>
+    </div>
+    
+</section>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/jquery-1.9.1.min.js"></script> 
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+
+    <!-- Demo -->
+
+    <style>
+      .productlist h4 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+.less-content {
+  position: absolute;
+  left: -10%;
+  width: 100%;
+  max-width: 400px;
+}
+.less-content .text-capitalize {
+  width: 100% !important;
+}
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: false,
+        items : 1,
+              itemsDesktop : [1000,1], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,1], // betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0;
+      });
+
+    });
+        $(document).ready(function() {
+      $("#owl-demo1").owlCarousel({
+        autoPlay: true,
+        items : 2,
+         navigation : true,
+                       itemsDesktop : [1000,2], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,1], // betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0;
+
+      });
+
+    });
+    </script>
+</body>
+</html>
